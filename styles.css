@@ -147,7 +147,40 @@ table {
     --dark-charcoal: #2B2B2B;
     --soft-white: #FAF9F6;
 }
+
 /* GLOBAL STYLES (mobile first/small) */
 /* MEDIA QUERY MEDIUM */
 /* MEDIA QUERY LARGE */
 /* MEDIA QUERY X-LARGE */
+body {
+    font-family: 'Playfair Display', Arial, sans-serif;
+}
+
+header img {
+    padding-top: 10px;
+    width: 150px;
+    padding-bottom: 10px;
+}
+
+header {
+    text-align: center;
+    background-color: var(--midnight-blue);
+}
+
+h1 {
+    font-size: 3.2rem;
+    color: var(--soft-white);
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+header p {
+    font-size: 1rem;
+    color: var(--soft-white);
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+nav{
+    list-style-type: none;
+}

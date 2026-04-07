@@ -203,6 +203,55 @@ nav a:hover {
     text-decoration: underline;
 }
 
+#about {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 #about h2 {
-    text-align: center;
+    padding-top: 40px;
+    color: var(--midnight-blue);
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+}
+
+#about p {
+    text-align: left;
+    line-height: 1.2;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--champagne-gold);
+}
+
+#offerings {
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+
+#offerings h2 {
+    padding-top: 20px;
+    color: var(--midnight-blue);
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+}
+
+#offerings p {
+    font-size: 0.85rem;
+    line-height: 1.2;
+}
+
+.test {
+    color: var(--soft-white);
+    background-color: var(--olive-green);
+    padding: 10px 10px 15px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.test h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 5px;
+
 }

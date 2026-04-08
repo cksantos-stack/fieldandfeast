@@ -276,8 +276,7 @@ nav a:hover {
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 15px;
-
+    padding-bottom: 20px;
 }
 
 #gallery img {
@@ -324,4 +323,11 @@ nav a:hover {
 
 #gallery a:hover {
     text-decoration: underline;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.quickline {
+    padding-top: 15px;
+    height: 1px;
+    border-bottom: 1px solid var(--champagne-gold);
 }

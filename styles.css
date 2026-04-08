@@ -276,6 +276,8 @@ nav a:hover {
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 15px;
+
 }
 
 #gallery img {
@@ -308,4 +310,18 @@ nav a:hover {
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
 
+}
+
+#gallery a {
+    display: block;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    background-color: var(--olive-green);
+    border-radius: 3px;
+    color: var(--soft-white);
+}
+
+#gallery a:hover {
+    text-decoration: underline;
 }

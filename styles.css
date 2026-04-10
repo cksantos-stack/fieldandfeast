@@ -327,10 +327,9 @@ nav a:hover {
 }
 
 .quickline {
-    padding-top: 10px;
     height: 1px;
     border-bottom: 1px solid var(--champagne-gold);
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 footer {
@@ -390,7 +389,13 @@ footer p:last-child {
         gap: 10px;
     }
 
-    #gallery>p h2 {
+    #gallery h2,
+    #gallery>p {
+        grid-column: 1/-1;
+    }
+
+    #gallery a,
+    .quickline {
         grid-column: 1/-1;
     }
 }

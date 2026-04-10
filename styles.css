@@ -408,8 +408,8 @@ footer p:last-child {
 }
 
 @media (min-width: 1200px) {
-    #gallery {
 
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+    #gallery {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 }

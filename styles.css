@@ -408,8 +408,13 @@ footer p:last-child {
 }
 
 @media (min-width: 1200px) {
-
     #gallery {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 30px;
+    }
+
+    #gallery img+p {
+        padding: 25px;
+        line-height: 1.3;
     }
 }

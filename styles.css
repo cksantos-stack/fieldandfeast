@@ -148,10 +148,6 @@ table {
     --soft-white: #FAF9F6;
 }
 
-/* GLOBAL STYLES (mobile first/small) */
-/* MEDIA QUERY MEDIUM */
-/* MEDIA QUERY LARGE */
-/* MEDIA QUERY X-LARGE */
 body {
     font-family: 'Playfair Display', Arial, sans-serif;
     background-color: var(--soft-white);
@@ -364,7 +360,9 @@ footer p {
 footer p:last-child {
     margin-top: 50px;
 }
+/* GLOBAL STYLES (mobile first/small) */
 
+/* MEDIA QUERY (medium) */
 @media (min-width: 600px) {
     #offerings {
         display: grid;
@@ -400,6 +398,7 @@ footer p:last-child {
     }
 }
 
+/* MEDIA QUERY (large) */
 @media (min-width: 900px) {
     #gallery {
         grid-template-columns: 1fr 1fr 1fr;
@@ -407,6 +406,7 @@ footer p:last-child {
     }
 }
 
+/* MEDIA QUERY (xl) */
 @media (min-width: 1200px) {
     #gallery {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

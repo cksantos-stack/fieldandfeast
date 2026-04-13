@@ -222,7 +222,7 @@ nav a:hover {
     margin-right: 15px;
     margin-left: 15px;
     padding-bottom: 15px;
-    border-bottom: 1px solid var(--champagne-gold);
+
 }
 
 #offerings h2 {
@@ -376,7 +376,7 @@ footer p:last-child {
         grid-column: 1 / -1;
     }
 
-    #offerings .card:last-child {
+    #offerings .card:last-of-type {
         grid-column: 1 / -1;
     }
 }

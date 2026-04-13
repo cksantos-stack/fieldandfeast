@@ -285,14 +285,14 @@ nav a:hover {
 
 #gallery h2 {
     font-size: 1.5rem;
-    padding-bottom: 5px;
+    padding-bottom: 1px;
     color: var(--midnight-blue);
 }
 
 #gallery p {
     font-size: 0.85rem;
     line-height: 1.3;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 #gallery img+p {
@@ -445,4 +445,16 @@ footer p:last-child {
         padding-right: 120px;
     }
 
+    #gallery {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    #gallery img+p {
+        padding: 30px;
+    }
+
+    #gallery>p{
+        padding-bottom:0px;
+    }
 }

@@ -429,7 +429,6 @@ footer p:last-child {
     #about p {
         padding-left: 120px;
         padding-right: 120px;
-
     }
 
     #about p {
@@ -441,7 +440,14 @@ footer p:last-child {
         margin-left: 120px;
     }
 
-    #offerings h2{
-        
+    #offerings h2 {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    .card {
+        padding-left: 120px;
+        padding-right: 120px;
+        background-size: 20px;
     }
 }

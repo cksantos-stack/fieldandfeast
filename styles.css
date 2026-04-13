@@ -440,14 +440,8 @@ footer p:last-child {
         margin-left: 120px;
     }
 
-    #offerings h2 {
+    #offerings {
         padding-left: 120px;
         padding-right: 120px;
-    }
-
-    .card {
-        padding-left: 120px;
-        padding-right: 120px;
-        background-size: 20px;
     }
 }

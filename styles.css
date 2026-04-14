@@ -186,7 +186,6 @@ nav ul {
     padding-bottom: 10px;
     padding-right: 25px;
     padding-left: 25px;
-
 }
 
 nav a {
@@ -215,7 +214,6 @@ nav a:hover {
     text-align: left;
     line-height: 1.2;
     padding-bottom: 15px;
-
 }
 
 #offerings {
@@ -235,7 +233,6 @@ nav a:hover {
 #offerings p {
     font-size: 0.85rem;
     line-height: 1.25;
-
 }
 
 .card {
@@ -247,7 +244,6 @@ nav a:hover {
     box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
 
 }
-
 
 .card h3 {
     font-size: 1.5rem;
@@ -280,7 +276,6 @@ nav a:hover {
     width: 100%;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
-
 }
 
 #gallery h2 {
@@ -295,22 +290,21 @@ nav a:hover {
     padding-bottom: 5px;
 }
 
-#gallery img+p {
+#gallery img+figcaption {
     text-align: center;
     font-style: italic;
-    padding: 6px;
+    padding: 8px;
     margin-bottom: 15px;
     background-color: var(--soft-white);
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
-
 }
 
 #gallery a {
     display: block;
     text-align: center;
-    padding: 8px;
+    padding: 6px;
     text-decoration: none;
     background-color: var(--olive-green);
     border-radius: 3px;
@@ -320,6 +314,15 @@ nav a:hover {
 #gallery a:hover {
     text-decoration: underline;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+#gallery figure {
+    display: flex;
+    flex-direction: column;
+}
+
+#gallery figcaption {
+    flex-grow: 1;
 }
 
 .quickline {
@@ -403,7 +406,6 @@ footer p:last-child {
 @media (min-width: 900px) {
     #gallery {
         grid-template-columns: 1fr 1fr 1fr;
-
     }
 }
 
@@ -416,7 +418,7 @@ footer p:last-child {
         padding-right: 120px;
     }
 
-    #gallery img+p {
+    #gallery figcaption {
         padding: 30px;
         line-height: 1.3;
     }
